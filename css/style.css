@@ -1,0 +1,195 @@
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #D6A40C;
+    color: #11538A;
+    margin: 0px 0px 30px 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 2%;
+    background-color: #FF6347;
+    color: black;
+}
+
+h1{
+    color: #2B055A;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h2{
+    color: #043156;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 22px;
+    font-style: italic;
+}
+
+.exemplo-2{
+    background-color: #262262;
+    color: #d3d6db;
+    padding: 0 0 10px 0;
+}
+
+#exemplo-2{
+    color: #f4a32c;
+    padding-top: 40px;
+}
+
+.container{
+    margin: 30px auto;
+    width: 350px;
+}
+
+.exemplo-2 h1{
+    letter-spacing: 1px;
+    margin: 0;
+    color: #FF6347;
+}
+
+.exemplo-2 h3{
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin: 40px 0 10px;
+}
+
+.exemplo-2 h4{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.inc-exp-container{
+    background-color: #FF6347;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.inc-exp-container > div{
+    flex: 1;
+    text-align: center;
+}
+
+.inc-exp-container > div:first-of-type{
+    border-right: 1px solid #043156;
+}
+
+.money {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.money.plus{
+    color: #262262;
+}
+
+.money.minus{
+    color: #11538A;
+}
+
+label{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+input[type='text'],
+input[type='number']{
+    border: 1px solid #FF6347;
+    border-radius: 2px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: #D6A40C;
+    box-shadow: var(--box-shadow);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn:focus,
+.delete-btn:focus{
+    outline: 0;
+}
+
+.transactions{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.transactions li{
+    background-color: #bbb;
+    box-shadow: var(--box-shadow);
+    color: #043156;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.transactions li.plus{
+    border-rigth: 5px solid #262262;
+}
+
+.transactions li.minus{
+    border-rigth: 5px solid #11538A;
+}
+
+.delete-btn{
+    cursor: pointer;
+    background-color: #f4a32c;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.transactions li:hover .delete-btn{
+    opacity: 1;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1,5;
+}
+
+
+.rodape {
+    background-color: #FF6347;
+    text-align: center;
+    color: #043156;
+    padding: 20px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape p{
+    margin: 15px;
+}

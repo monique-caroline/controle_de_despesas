@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"> <!--Tag de codificação, interpretação de linguagem-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello, World!</title> <!--Título do Projeto-->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            
+        </header>
+
+        <h1>Estudando JavaScript</h1>
+
+        
+
+            <!--Exemplo 2 de aplicação JS: -->
+            <div class="exemplo-2">
+                <h2 id="exemplo-2">Exemplo 2</h2>
+                <h3>Controle de despesas</h3>
+
+                    <div class="container">
+                      <h4>Saldo atual</h4>
+                      
+                      <h1 id="balance" class="balance">R$ 0.00</h1>
+                
+                      <div class="inc-exp-container">
+                        <div>
+                          <h4>Receitas</h4>
+                          <p id="money-plus" class="money plus">+ R$0.00</p>
+                        </div>
+                
+                        <div>
+                          <h4>Despesas</h4>
+                          <p id="money-minus" class="money minus">- R$0.00</p>
+                        </div>
+                      </div>
+                
+                      <h3>Transações</h3>
+                      
+                      <ul id="transactions" class="transactions"></ul>
+                
+                      <h3>Adicionar transação</h3>
+                      
+                      <form id="form">
+                        <div class="form-control">
+                          <label for="text">Nome</label>
+                          <input autofocus type="text" id="text" placeholder="Nome da transação" />
+                        </div>
+                
+                        <div class="form-control">
+                          <label for="amount">Valor <br />
+                            <small>(negativo - despesas, positivo - receitas)</small>
+                          </label>
+                          <input type="number" id="amount" placeholder="Valor da transação" />
+                        </div>
+                
+                        <button class="btn">Adicionar</button>
+                      </form>
+                    </div>
+
+            </div>
+
+            
+           
+
+        <script type="text/javascript" src="js/script.js"></script>
+
+        <!--FOOTER-->
+    <footer class="rodape">
+            <p>copyrigth</p>
+            <p>2021</p>
+            <p>Nix Hello World</p>
+            <p>All rights reserved</p>
+          </footer>
+    </body>
+</html>
